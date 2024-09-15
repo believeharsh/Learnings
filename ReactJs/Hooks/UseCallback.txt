@@ -1,8 +1,20 @@
 What is the UseCallback hook?
 useCallback is a React Hook that lets you cache a function definition between re-renders.
 
-What are the usage of this ?
+** What are the usage of this ?
 * Skipping re-rendering of components
 * Updating state from a memoized callback
 * Preventing an Effect from firing too often
 * Optimizing a custom Hook
+
+** How is useCallback related to useMemo? 
+You will often see useMemo alongside useCallback. They are both useful when you’re trying to optimize a child component. They let you memoize (or, in other words, cache) 
+something you’re passing down:
+
+* useMemo caches the result of calling your function. In this example, it caches the result of calling computeRequirements(product) so that it doesn’t 
+change unless product has changed. This lets you pass the requirements object down without unnecessarily re-rendering ShippingForm. When necessary, 
+React will call the function you’ve passed during rendering to calculate the result.
+
+* useCallback caches the function itself. Unlike useMemo, it does not call the function you provide. Instead, it caches the function you provided
+so that handleSubmit itself doesn’t change unless productId or referrer has changed. This lets you pass the handleSubmit function down without unnecessarily 
+re-rendering ShippingForm. Your code won’t run until the user submits the form.
