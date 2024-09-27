@@ -18,3 +18,10 @@ React will call the function you’ve passed during rendering to calculate the r
 * useCallback caches the function itself. Unlike useMemo, it does not call the function you provide. Instead, it caches the function you provided
 so that handleSubmit itself doesn’t change unless productId or referrer has changed. This lets you pass the handleSubmit function down without unnecessarily 
 re-rendering ShippingForm. Your code won’t run until the user submits the form.
+
+
+
+** Every time my component renders, useCallback returns a different function
+Make sure you’ve specified the dependency array as a second argument!
+
+If you forget the dependency array, useCallback will return a new function every time:
