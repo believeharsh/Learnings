@@ -8,6 +8,7 @@
     "start": "node server.js"
   },
   "author": "HarshDahiya",
+  "type" : "module",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
