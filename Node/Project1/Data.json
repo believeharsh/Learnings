@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "tasks": [
+      { "id": 1, "title": "Complete Node.js tutorial", "status": "completed" },
+      { "id": 2, "title": "Set up database", "status": "pending" }
+    ],
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "zipcode": "10001"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "tasks": [
+      { "id": 3, "title": "Write blog post", "status": "completed" },
+      { "id": 4, "title": "Review pull requests", "status": "in-progress" }
+    ],
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "San Francisco",
+      "zipcode": "94105"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Harsh Dahiya",
+    "email": "jane.smith@example.com",
+    "tasks": [
+      { "id": 3, "title": "Write blog post", "status": "completed" },
+      { "id": 4, "title": "Review pull requests", "status": "in-progress" }
+    ],
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "San Francisco",
+      "zipcode": "94105"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tannu Soni",
+    "email": "jane.smith@example.com",
+    "tasks": [
+      { "id": 3, "title": "Write blog post", "status": "completed" },
+      { "id": 4, "title": "Review pull requests", "status": "in-progress" }
+    ],
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "San Francisco",
+      "zipcode": "94105"
+    }
+  },
+  { "name": "HarshDahiya", "email": "harshdahiya@gmail.com", "id": 5 },
+  { "name": "MisSavitaDahiya", "email": "MisSavitaDahiya@gamil.com", "id": 6 },
+  {
+    "name": "VaibhavNath Sinde",
+    "email": "VaibhavNathSinde@gmail.com",
+    "id": 7
+  }
+]

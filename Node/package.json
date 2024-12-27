@@ -1,14 +1,12 @@
 {
-  "name": "learings",
+  "name": "node-learings",
   "version": "1.0.0",
   "description": "\"Learing Node JS For Backend\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "HarshDahiya",
-  "type" : "module",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
