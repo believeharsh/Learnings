@@ -10,10 +10,12 @@ const generateNewShortURL = async (req, res) => {
     shortId: shortId,
     redirectUrl: body.url,
     visitHistory: [],
+    createdBy : req.user._id,
   });
-
-  return res.status(201).json({ id: shortId });
-};
+  return res.render("home" , {
+    id : shortId,
+  }) ; 
+1 };
 
 const handleGetAnalytics = async (req, res) => {
     const shortId = req.params.shortId ; 
