@@ -1,0 +1,6 @@
+Multer is a middleware for handling multipart/form-data, which is primarily used for uploading files in Node.js applications. It simplifies file handling by parsing incoming request files and storing them in a specified location (e.g., in memory, on disk, or in a database).
+
+Key Features
+Supports multiple file uploads.
+Offers flexibility in configuring file storage and filtering.
+Easy integration with Express or Koa applications.
