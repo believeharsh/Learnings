@@ -1,0 +1,2 @@
+// What is the type aliases in the typeScript?
+// "In TypeScript, a Type Alias is a way to give a new name to an existing type. Think of it as creating a custom label or a nickname for any type – whether it's a primitive type like string or number, a complex object shape, a union type, a tuple, or even a function signature. It doesn't create a new distinct type; it simply provides an alternative name for an existing one."
